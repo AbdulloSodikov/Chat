@@ -1,0 +1,12 @@
+0000000000000000000000000000000000000000 81159421beac2ac4f99ed406ecc82c331eec4296 Sodikov Abdullo <sodikov.ak@gmail.com> 1641998250 +0500	commit (initial): add fragments
+81159421beac2ac4f99ed406ecc82c331eec4296 7604cd2620129b11ffcb02e981b9d57204d68441 Sodikov Abdullo <sodikov.ak@gmail.com> 1641998287 +0500	commit: add fragments
+7604cd2620129b11ffcb02e981b9d57204d68441 6fc5dff66f1325c529cf251fb861df80461fc0fc Sodikov Abdullo <sodikov.ak@gmail.com> 1641998302 +0500	commit: add model
+6fc5dff66f1325c529cf251fb861df80461fc0fc 3bce4e535fdcfb5cc38eda49a17c8b7f9f3235a4 Sodikov Abdullo <sodikov.ak@gmail.com> 1641998423 +0500	commit: add dao and repository
+3bce4e535fdcfb5cc38eda49a17c8b7f9f3235a4 af3d4c81c477c06b537d800dd7c4243c52f54ecb Sodikov Abdullo <sodikov.ak@gmail.com> 1641998445 +0500	commit: add database
+af3d4c81c477c06b537d800dd7c4243c52f54ecb 132ca2e058f4dfa886d93819b4325a79ec07d957 Sodikov Abdullo <sodikov.ak@gmail.com> 1641998466 +0500	commit: add navigation
+132ca2e058f4dfa886d93819b4325a79ec07d957 862df4184a2d9bb2214cb8181ec092eb4949563f Sodikov Abdullo <sodikov.ak@gmail.com> 1641998571 +0500	commit: dependence
+862df4184a2d9bb2214cb8181ec092eb4949563f 7a662472b96b1449eb86a97e3c85d208c3463353 Sodikov Abdullo <sodikov.ak@gmail.com> 1642001063 +0500	commit: linking MainActivity
+7a662472b96b1449eb86a97e3c85d208c3463353 9bc56ea9f1377dbcd011ed23513f79a77517a3d9 Sodikov Abdullo <sodikov.ak@gmail.com> 1642001216 +0500	commit: new package from constants
+9bc56ea9f1377dbcd011ed23513f79a77517a3d9 02ffbf2cffbb5b9630558c039bed99541947305b Sodikov Abdullo <sodikov.ak@gmail.com> 1642001334 +0500	commit: add button for actions in Start Fragment to Chat Fragment
+02ffbf2cffbb5b9630558c039bed99541947305b 532641c75301a536dfbea542c99d6807ea100154 Sodikov Abdullo <sodikov.ak@gmail.com> 1642001346 +0500	commit: refactor
+532641c75301a536dfbea542c99d6807ea100154 1c9d9d0631a692532679936d3a3b4373979e0bc4 Sodikov Abdullo <sodikov.ak@gmail.com> 1642001366 +0500	commit: refactor
