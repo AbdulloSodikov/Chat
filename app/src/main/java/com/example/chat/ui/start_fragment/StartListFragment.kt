@@ -14,6 +14,8 @@ import com.example.chat.databinding.FragmentStartListBinding
 import com.example.chat.model.Person
 import com.example.chat.ui.view_model.StartListFragmentViewModel
 import com.example.chat.utillite.APP_ACTIVITY
+import com.example.chat.utillite.PERSON_ID
+import com.example.chat.utillite.showToast
 import java.util.*
 
 class StartListFragment : Fragment() {
@@ -34,7 +36,6 @@ class StartListFragment : Fragment() {
 
     override fun onStart() {
         super.onStart()
-
         initialization()
 
     }
@@ -45,8 +46,19 @@ class StartListFragment : Fragment() {
         mPersonAdapter = PersonAdapter()
         mRecyclerView = mBinding.personRecyclerView
         mRecyclerView.adapter = mPersonAdapter
-        mViewModel.getAllPerson.observe(this,{it?.let { mPersonAdapter.setList(it) }})
-
+        mViewModel.getAllPerson.observe(this, { it?.let { mPersonAdapter.setList(it) } })
+        mPersonAdapter.onItemClick = {
+            val bundle = Bundle()
+            bundle.putInt(PERSON_ID,it)
+            APP_ACTIVITY.mNavController.navigate(R.id.action_startListFragment_to_chatFragment)
+        }
 
     }
+
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
+
 }

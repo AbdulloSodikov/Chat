@@ -12,11 +12,18 @@ import com.example.chat.model.Person
 
 class PersonAdapter : RecyclerView.Adapter<PersonAdapter.PersonHolder>() {
     private var mPersonList = emptyList<Person>()
+    var onItemClick: ((PersonId: Int) -> Unit)? = null
 
 
-    class PersonHolder(view: View) : RecyclerView.ViewHolder(view) {
+    inner class PersonHolder(view: View) : RecyclerView.ViewHolder(view) {
         val urlAvatarPerson: ImageView = view.findViewById(R.id.person_image)
         val fullName: TextView = view.findViewById(R.id.tv_full_name)
+
+        init {
+            view.setOnClickListener {
+                onItemClick?.invoke(mPersonList[absoluteAdapterPosition].personId)
+            }
+        }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PersonHolder {
@@ -29,9 +36,9 @@ class PersonAdapter : RecyclerView.Adapter<PersonAdapter.PersonHolder>() {
         holder.fullName.text = person.personName
 
 
-            Glide.with(holder.urlAvatarPerson.context)
-                .load(mPersonList[position].urlPersonAvatar)
-                .into(holder.urlAvatarPerson)
+        Glide.with(holder.urlAvatarPerson.context)
+            .load(mPersonList[position].urlPersonAvatar)
+            .into(holder.urlAvatarPerson)
 
     }
 
