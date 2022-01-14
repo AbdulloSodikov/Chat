@@ -51,7 +51,10 @@ class StartListFragment : Fragment() {
             val bundlePersonId = Bundle()
             bundlePersonId.putInt(PERSON_ID,it)
             APP_ACTIVITY.mNavController.navigate(R.id.action_startListFragment_to_chatFragment,bundlePersonId)
+        }
 
+        mBinding.add.setOnClickListener {
+            APP_ACTIVITY.mNavController.navigate(R.id.action_startListFragment_to_addPersonFragment)
         }
     }
 

@@ -16,7 +16,7 @@
         android:background="@color/colorAccent">
 
         <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/person_image"
+            android:id="@+id/person_image_add"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_margin="@dimen/appMargin"
@@ -38,7 +38,7 @@
             android:textSize="@dimen/app_large_text"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/person_image"
+            app:layout_constraintStart_toEndOf="@+id/person_image_add"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView

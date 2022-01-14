@@ -44,6 +44,7 @@
         android:padding="16dp"
         android:src="@drawable/ic_send"
         android:focusable="true"
+        android:clickable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/chat_recyclerView" />

@@ -8,7 +8,6 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.chat.R
-import com.example.chat.model.Message
 import com.example.chat.model.Person
 
 class PersonAdapter : RecyclerView.Adapter<PersonAdapter.PersonHolder>() {
@@ -18,7 +17,7 @@ class PersonAdapter : RecyclerView.Adapter<PersonAdapter.PersonHolder>() {
 
 
     inner class PersonHolder(view: View) : RecyclerView.ViewHolder(view) {
-        val urlAvatarPerson: ImageView = view.findViewById(R.id.person_image)
+        val urlAvatarPerson: ImageView = view.findViewById(R.id.person_image_add)
         val fullName: TextView = view.findViewById(R.id.tv_full_name)
 
         init {

@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_startListFragment_to_chatFragment"
             app:destination="@id/chatFragment" />
+        <action
+            android:id="@+id/action_startListFragment_to_addPersonFragment"
+            app:destination="@id/addPersonFragment" />
     </fragment>
     <fragment
         android:id="@+id/chatFragment"
@@ -21,6 +24,15 @@
         tools:layout="@layout/fragment_chat" >
         <action
             android:id="@+id/action_chatFragment_to_startListFragment"
+            app:destination="@id/startListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addPersonFragment"
+        android:name="com.example.chat.ui.add_person_fragment.AddPersonFragment"
+        android:label="fragment_add_person"
+        tools:layout="@layout/fragment_add_person" >
+        <action
+            android:id="@+id/action_addPersonFragment_to_startListFragment"
             app:destination="@id/startListFragment" />
     </fragment>
 </navigation>

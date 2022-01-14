@@ -44,11 +44,6 @@ class ChatFragment : Fragment() {
 
     }
 
-    override fun onResume() {
-        super.onResume()
-
-    }
-
     private fun initialization() {
         mViewModel = ViewModelProvider(this)[ChatFragmentViewModel::class.java]
         mChatAdapter = ChatAdapter()
