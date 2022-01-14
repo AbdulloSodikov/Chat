@@ -7,12 +7,16 @@ import androidx.room.PrimaryKey
 
 @Entity (tableName = "message")
 data class Message (
-    @PrimaryKey (autoGenerate = false)
+    @PrimaryKey (autoGenerate = true)
+    @ColumnInfo
+    val id : Int = 0,
+
     @ColumnInfo (name = "PersonId")
     val personId : Int,
 
-    @ColumnInfo (name = "messege")
+    @ColumnInfo (name = "message")
     val message: String
 
-        ) {
+        )
+{
 }

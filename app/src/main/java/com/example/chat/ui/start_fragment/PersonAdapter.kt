@@ -8,10 +8,12 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.chat.R
+import com.example.chat.model.Message
 import com.example.chat.model.Person
 
 class PersonAdapter : RecyclerView.Adapter<PersonAdapter.PersonHolder>() {
     private var mPersonList = emptyList<Person>()
+
     var onItemClick: ((PersonId: Int) -> Unit)? = null
 
 
@@ -34,6 +36,7 @@ class PersonAdapter : RecyclerView.Adapter<PersonAdapter.PersonHolder>() {
     override fun onBindViewHolder(holder: PersonHolder, position: Int) {
         val person = mPersonList[position]
         holder.fullName.text = person.personName
+
 
 
         Glide.with(holder.urlAvatarPerson.context)

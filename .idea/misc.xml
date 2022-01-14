@@ -3,14 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Dell/Desktop/Kotlin_project/Chat/app/src/main/res/drawable/bg_my_message.xml" value="0.28229166666666666" />
         <entry key="..\:/Users/Dell/Desktop/Kotlin_project/Chat/app/src/main/res/drawable/header.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/Dell/Desktop/Kotlin_project/Chat/app/src/main/res/drawable/ic_cleaning.xml" value="0.28229166666666666" />
+        <entry key="..\:/Users/Dell/Desktop/Kotlin_project/Chat/app/src/main/res/drawable/ic_delete.xml" value="0.28229166666666666" />
+        <entry key="..\:/Users/Dell/Desktop/Kotlin_project/Chat/app/src/main/res/drawable/ic_driver_menu.xml" value="0.28229166666666666" />
+        <entry key="..\:/Users/Dell/Desktop/Kotlin_project/Chat/app/src/main/res/drawable/ic_more.xml" value="0.28229166666666666" />
+        <entry key="..\:/Users/Dell/Desktop/Kotlin_project/Chat/app/src/main/res/drawable/ic_phone.xml" value="0.28229166666666666" />
         <entry key="..\:/Users/Dell/Desktop/Kotlin_project/Chat/app/src/main/res/drawable/ic_search.xml" value="0.26666666666666666" />
         <entry key="..\:/Users/Dell/Desktop/Kotlin_project/Chat/app/src/main/res/drawable/ic_search_black_24dp.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/Dell/Desktop/Kotlin_project/Chat/app/src/main/res/drawable/ic_send.xml" value="0.28229166666666666" />
+        <entry key="..\:/Users/Dell/Desktop/Kotlin_project/Chat/app/src/main/res/drawable/ic_videocam.xml" value="0.28229166666666666" />
+        <entry key="..\:/Users/Dell/Desktop/Kotlin_project/Chat/app/src/main/res/drawable/ic_volume_off.xml" value="0.28229166666666666" />
         <entry key="..\:/Users/Dell/Desktop/Kotlin_project/Chat/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/Dell/Desktop/Kotlin_project/Chat/app/src/main/res/layout/fragment_chat.xml" value="0.264" />
         <entry key="..\:/Users/Dell/Desktop/Kotlin_project/Chat/app/src/main/res/layout/fragment_start_list.xml" value="0.25" />
-        <entry key="..\:/Users/Dell/Desktop/Kotlin_project/Chat/app/src/main/res/layout/message_item.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Dell/Desktop/Kotlin_project/Chat/app/src/main/res/layout/message_item.xml" value="0.4" />
         <entry key="..\:/Users/Dell/Desktop/Kotlin_project/Chat/app/src/main/res/layout/person_item.xml" value="0.4" />
+        <entry key="..\:/Users/Dell/Desktop/Kotlin_project/Chat/app/src/main/res/layout/toolbar_chat.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/Dell/Desktop/Kotlin_project/Chat/app/src/main/res/menu/chat_menu.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/Dell/Desktop/Kotlin_project/Chat/app/src/main/res/menu/search_menu.xml" value="0.25052083333333336" />
       </map>
