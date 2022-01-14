@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/ic_phone"
+        app:showAsAction="ifRoom"
+        android:title="">
+    </item>
+
+<item
+    android:icon="@drawable/ic_more"
+    app:showAsAction="ifRoom"
+    android:title="">
+    <menu>
+        <item
+            android:id="@+id/app_chat_video"
+            android:icon="@drawable/ic_videocam"
+            android:title="Видеозвонок"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/app_chat_search"
+            android:icon="@drawable/ic_search"
+            android:title="Найти"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/app_chat_clear"
+            android:icon="@drawable/ic_cleaning"
+            android:title="Очистить историю"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/app_chat_volume_of"
+            android:icon="@drawable/ic_volume_off"
+            android:title="Отключить увидомление"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/app_chat_delate_chat"
+            android:icon="@drawable/ic_delete"
+            android:title="Удалить чать"
+            app:showAsAction="never" />
+
+    </menu>
+</item>
+
+</menu>
