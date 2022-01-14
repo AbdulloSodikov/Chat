@@ -11,19 +11,17 @@
     <!-- TODO: Update blank fragment layout -->
 
 
-
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/chat_recyclerView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_margin="8dp"
+        android:background="@color/colorBlueWish"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintBottom_toTopOf="@+id/chat_input_message"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:background="@color/colorBlueWish"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+        tools:listitem="@layout/message_item" />
 
     <EditText
         android:id="@+id/chat_input_message"
@@ -33,17 +31,18 @@
         android:hint="@string/hint_message"
         android:padding="16dp"
         android:textColorHint="@color/colorGrey"
+        android:textColor="@color/colorBlack"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/ic_send_message"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/ic_send_message"
         android:layout_width="50dp"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:padding="16dp"
         android:src="@drawable/ic_send"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/chat_input_message"/>
+        app:layout_constraintTop_toBottomOf="@+id/chat_recyclerView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
